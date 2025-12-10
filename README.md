@@ -1,4 +1,5 @@
 Railway Waiting List Queue System (Java)
+
 Introduction
 
 The Railway Waiting List Queue System is a Java console application developed to demonstrate the practical use of the Queue (FIFO) data structure. The project simulates basic railway waiting list operations and serves as a foundational example for beginners learning data structures, Java Collections, and menu-driven program design.
@@ -18,26 +19,21 @@ Uses LinkedList as the Queue implementation
 Technologies Used
 
 Java (JDK 8 or higher)
-
 Java Collections Framework
-
 LinkedList (Queue implementation)
-
 Scanner for console input
 
 Project Structure
+
 RailwayWaitingList/
 └── RailwayWaitingList.java
 
 How to Run
+
 Using VS Code
-
 Install the Java Extension Pack.
-
 Open the project folder.
-
 Open RailwayWaitingList.java.
-
 Click the Run button.
 
 Interact through the integrated terminal.
@@ -74,23 +70,15 @@ Ticket confirmed for: Anita
 Concepts Demonstrated
 
 Queue (FIFO) operations
-
 Java Collections API
-
 Input handling and validation
-
 Menu-driven console application design
-
-Basic procedural logic and data structure usage
+basic procedural logic and data structure usage
 
 Future Enhancements
 
 Implement seat capacity logic
-
 Auto-confirmation when seats become available
-
 Store and load data from a file
-
 GUI version using JavaFX
-
 Passenger cancellation functionality
