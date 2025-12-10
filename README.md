@@ -1,62 +1,62 @@
-# 🚆 Railway Waiting List Queue System (Java)
+Railway Waiting List Queue System (Java)
+Introduction
 
-A simple Java console application that simulates a **railway waiting list** using the **Queue (FIFO)** data structure.  
-This project helps beginners understand queue operations, menu-driven Java programs, and the Java Collections Framework.
+The Railway Waiting List Queue System is a Java console application developed to demonstrate the practical use of the Queue (FIFO) data structure. The project simulates basic railway waiting list operations and serves as a foundational example for beginners learning data structures, Java Collections, and menu-driven program design.
 
----
+Features
 
-## 📌 Features
+Add a passenger to the waiting list
 
-- ➕ Add passengers to the waiting list  
-- ✔ Confirm ticket for the next passenger (poll)  
-- 👀 View the current waiting list  
-- ❌ Alerts when waiting list is empty  
-- 🧑‍💻 Uses `LinkedList` as a Queue  
-- 🎯 Beginner-friendly project  
+Confirm the ticket for the next passenger in the queue
 
----
+Display the current waiting list
 
-## 🗂 Project Structure
+Handle empty queue conditions
 
-```
+Uses LinkedList as the Queue implementation
+
+Technologies Used
+
+Java (JDK 8 or higher)
+
+Java Collections Framework
+
+LinkedList (Queue implementation)
+
+Scanner for console input
+
+Project Structure
 RailwayWaitingList/
- └─ RailwayWaitingList.java
-```
+└── RailwayWaitingList.java
 
----
+How to Run
+Using VS Code
 
-## ▶️ How to Run the Project
+Install the Java Extension Pack.
 
-### **Using VS Code**
-1. Install **Java Extension Pack**  
-2. Open the project folder  
-3. Open `RailwayWaitingList.java`  
-4. Click the **Run ▶ button**  
-5. Enter options in the Run console  
+Open the project folder.
 
----
+Open RailwayWaitingList.java.
 
-### **Using Terminal**
-```bash
+Click the Run button.
+
+Interact through the integrated terminal.
+
+Using Terminal
 javac RailwayWaitingList.java
 java RailwayWaitingList
-```
 
----
-
-## 🖥 Example Output
-
-```
+Sample Output
 ===== Railway Waiting List System =====
 1. Add Passenger to Waiting List
 2. Confirm Ticket for Next Passenger
 3. View Waiting List
 4. Exit
 Enter your choice:
-```
 
-Example:
-```
+
+Example interaction:
+
 1
 Enter passenger name: Anita
 Anita added to waiting list.
@@ -70,31 +70,27 @@ Current Waiting List: [Anita, Ravi]
 
 2
 Ticket confirmed for: Anita
-```
 
----
+Concepts Demonstrated
 
-## 💡 Concepts Used
+Queue (FIFO) operations
 
-- Queue (FIFO)
-- Java Collections – LinkedList
-- Scanner input handling
-- Menu-driven program design
+Java Collections API
 
----
+Input handling and validation
 
-## 🌟 Future Improvements
+Menu-driven console application design
 
-- Add seat capacity logic  
-- Auto-confirm when seats open  
-- Save data to file  
-- GUI version with JavaFX  
-- Add cancellation feature  
+Basic procedural logic and data structure usage
 
----
+Future Enhancements
 
-## 👩‍💻 Author
+Implement seat capacity logic
 
-**Karthiga S**  
-Java Beginner | ECE Student  
-Learning software development through hands-on projects.
+Auto-confirmation when seats become available
+
+Store and load data from a file
+
+GUI version using JavaFX
+
+Passenger cancellation functionality
